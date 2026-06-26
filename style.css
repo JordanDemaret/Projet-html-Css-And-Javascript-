@@ -1,0 +1,22 @@
+.navBar {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .navLeft {
+        margin-left: 5%;
+    }
+
+    .navRight {
+        margin-right: 5%;
+        display: flex;
+        justify-content: space-evenly;
+        gap: 10px;
+    }
+
+}
+
+.navBar * {
+    color: snow;
+}
