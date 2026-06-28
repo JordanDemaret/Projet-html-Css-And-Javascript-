@@ -1,11 +1,17 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
 .navBar {
-    background-color: blueviolet;
+    background-color: rgb(24, 3, 44);
     display: flex;
     justify-content: space-between;
     align-items: center;
 
     .navLeft {
         margin-left: 5%;
+
     }
 
     .navRight {
@@ -19,4 +25,10 @@
 
 .navBar * {
     color: snow;
+}
+
+.titre {
+    margin: 0px;
+    margin-top: 5%;
+    margin-bottom: 10%;
 }
