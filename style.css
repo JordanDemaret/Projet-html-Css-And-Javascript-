@@ -32,3 +32,28 @@ body {
     margin-top: 5%;
     margin-bottom: 10%;
 }
+
+.mainItem {
+    background-color: gray;
+    border: 10px solid red;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .formular {
+        background-color: snow;
+        border: 10px solid blue;
+        flex-basis: 25%;
+        margin: 15px 10px 5px 100px;
+        padding: 10px;
+    }
+}
+
+input,
+textarea,
+select,
+button {
+    box-sizing: border-box;
+    width: 100%;
+}
