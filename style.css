@@ -34,20 +34,19 @@ body {
 }
 
 .mainItem {
-    background-color: gray;
+    background-color: rgb(237, 213, 213);
     border: 10px solid red;
 
     display: flex;
     justify-content: space-between;
-    align-items: center;
 
-    .formular {
-        background-color: snow;
-        border: 10px solid blue;
-        flex-basis: 25%;
-        margin: 15px 10px 5px 100px;
-        padding: 10px;
-    }
+}
+
+.formular {
+    background-color: snow;
+    flex-basis: 35%;
+    margin: 5px 10px 5px 100px;
+    padding: 10px;
 }
 
 input,
@@ -56,4 +55,58 @@ select,
 button {
     box-sizing: border-box;
     width: 100%;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+.imageChamp {
+    border: 2px solid rgb(186, 172, 172);
+    padding: 3px;
+}
+
+.mesTache {
+    border: 5px solid rebeccapurple;
+    background-color: snow;
+    flex-basis: 45%;
+    margin: 05px 100px 5px 10px;
+    padding: 10px;
+
+    .tache {
+        border: 2px solid rgb(186, 172, 172);
+        display: flex;
+        justify-content: space-between;
+    }
+
+    h3,
+    p {
+        font-size: 15px;
+        margin: 5px 0px;
+    }
+
+    .easy {
+        text-align: center;
+        border-radius: 20px;
+        padding: 10px;
+        background-color: greenyellow;
+
+    }
+
+    .medium {
+        text-align: center;
+        border-radius: 20px;
+        padding: 10px;
+        background-color: greenyellow;
+
+    }
+
+    .high {
+        text-align: center;
+        border-radius: 20px;
+        padding: 10px;
+        background-color: greenyellow;
+
+    }
+
 }
