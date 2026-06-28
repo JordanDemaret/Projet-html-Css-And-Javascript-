@@ -35,7 +35,6 @@ body {
 
 .mainItem {
     background-color: rgb(237, 213, 213);
-    border: 10px solid red;
 
     display: flex;
     justify-content: space-between;
@@ -85,28 +84,28 @@ h2 {
         margin: 5px 0px;
     }
 
-    .easy {
+    .para {
         text-align: center;
         border-radius: 20px;
         padding: 10px;
-        background-color: greenyellow;
+    }
 
+    .easy {
+        background-color: greenyellow;
     }
 
     .medium {
-        text-align: center;
-        border-radius: 20px;
-        padding: 10px;
-        background-color: greenyellow;
-
+        background-color: orangered;
     }
 
     .high {
-        text-align: center;
-        border-radius: 20px;
-        padding: 10px;
-        background-color: greenyellow;
-
+        background-color: red;
     }
+}
 
+
+img {
+    max-width: 20%;
+    height: auto;
+    display: block;
 }
