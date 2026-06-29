@@ -2,6 +2,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0%;
     padding: 0%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 100vh;
 }
 
 .navBar {
@@ -41,8 +45,8 @@ body {
 }
 
 .mainItem {
-    background-color: rgb(237, 213, 213);
-
+    background-color: rgb(194, 193, 198);
+    height: 500px;
     display: flex;
     justify-content: space-between;
 
@@ -84,18 +88,28 @@ h2 {
     margin: 05px 100px 5px 10px;
     padding: 10px;
 
-    .tache {
-        border: 2px solid rgb(186, 172, 172);
-        display: flex;
-        justify-content: space-between;
-        padding-left: 5px;
-        margin-bottom: 10px;
-    }
-
     h3,
     p {
         font-size: 15px;
         margin: 5px 0px;
+    }
+}
+
+.tache {
+    border: 2px solid rgb(186, 172, 172);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+
+.subtache {
+    display: flex;
+
+    h3,
+    p {
+        margin-left: 10px;
     }
 
 }
@@ -106,7 +120,8 @@ h2 {
 
     text-align: center;
     border-radius: 20px;
-    padding: 5px 10px;
+    padding: 6px 12px;
+
 
 }
 
@@ -115,18 +130,21 @@ h2 {
 }
 
 .medium {
-    background-color: orangered;
+    background-color: orange;
 }
 
 .high {
     background-color: red;
 }
 
+
+
 img {
-    max-width: 20%;
+    border: 3px solid antiquewhite;
+    margin: 10px;
+    max-width: 5%;
     height: auto;
     display: block;
-
 }
 
 .foot {
@@ -134,4 +152,24 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    h4,
+    p {
+        margin-left: 20px;
+    }
+
+}
+
+.info {
+    margin-right: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5px;
+}
+
+.copyright {
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 10px;
 }
