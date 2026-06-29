@@ -1,4 +1,5 @@
 body {
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0%;
     padding: 0%;
 }
@@ -8,29 +9,35 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
 
-    .navLeft {
-        margin-left: 5%;
+.navLeft {
 
-    }
-
-    .navRight {
-        margin-right: 5%;
-        display: flex;
-        justify-content: space-evenly;
-        gap: 10px;
-    }
+    margin-left: 5%;
 
 }
 
-.navBar * {
+.navRight {
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+
+
+}
+
+.link {
+    text-decoration: none;
+}
+
+.navBar *,
+.foot * {
     color: snow;
 }
 
 .titre {
     margin: 0px;
     margin-top: 5%;
-    margin-bottom: 10%;
 }
 
 .mainItem {
@@ -54,6 +61,12 @@ select,
 button {
     box-sizing: border-box;
     width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    background: blue;
+    color: snow;
 }
 
 h2 {
@@ -66,7 +79,6 @@ h2 {
 }
 
 .mesTache {
-    border: 5px solid rebeccapurple;
     background-color: snow;
     flex-basis: 45%;
     margin: 05px 100px 5px 10px;
@@ -76,6 +88,8 @@ h2 {
         border: 2px solid rgb(186, 172, 172);
         display: flex;
         justify-content: space-between;
+        padding-left: 5px;
+        margin-bottom: 10px;
     }
 
     h3,
@@ -84,28 +98,40 @@ h2 {
         margin: 5px 0px;
     }
 
-    .para {
-        text-align: center;
-        border-radius: 20px;
-        padding: 10px;
-    }
-
-    .easy {
-        background-color: greenyellow;
-    }
-
-    .medium {
-        background-color: orangered;
-    }
-
-    .high {
-        background-color: red;
-    }
 }
 
+.para {
+    display: inline-block;
+    background-color: snow;
+
+    text-align: center;
+    border-radius: 20px;
+    padding: 5px 10px;
+
+}
+
+.easy {
+    background-color: greenyellow;
+}
+
+.medium {
+    background-color: orangered;
+}
+
+.high {
+    background-color: red;
+}
 
 img {
     max-width: 20%;
     height: auto;
     display: block;
+
+}
+
+.foot {
+    background-color: rgb(24, 3, 44);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
