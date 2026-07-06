@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -28,30 +29,30 @@
             <div class="formular">
                 <h2> Ajouter une tâche</h2>
 
-                <form action="">
-                    <label for="tt">Titre</label>
-                    <input type=" text" name="" id="" placeholder="Créer la page Login">
+                <form  id="formEx" name="formulairebis" >
+                    
+                    <label for="text" >Titre</label>
+                    <input required type="text" name="" id="text" placeholder="Créer la page Login">
+            
 
-                    <label for="">Description</label>
-                    <textarea name="" id="" placeholder="Décrire la tâche"></textarea>
+                    <label for="des">Description</label>
+                    <textarea required name="" id="des" placeholder="Décrire la tâche"></textarea>
 
-                    <label for="">Image</label>
+                    <label for="image">Image</label>
+                    <input class="imageChamp" type="file" id="image">
 
-                    <input class="imageChamp" type="file">
-
-                    <label for="">Priorité</label>
-
-                    <select name="" id="">
-                        <option value="">Easy</option>
-                        <option value="">Medium</option>
-                        <option value="">High</option>
+                    <label for="pro">Priorité</label>
+                    <select name="" id="pro">
+                        <option value="Easy">Easy</option>
+                        <option value="Medium">Medium</option>
+                        <option value="High">High</option>
                     </select>
 
                     <button type="submit">Ajouter</button>
                 </form>
             </div>
 
-            <div class="mesTache">
+            <div class="mesTache" id="mesTache">
                 <h2>Mes Tâche</h2>
                 <div class="tache">
                     <div>
@@ -76,14 +77,14 @@
                     <span class="para high">High</span>
                 </div>
                 <div class="tache">
-                    <div class="subtache">
-                        <img class="img" src="OIP.webp" alt="Angular logo">
+                    <img class="task-image" src="OIP.webp" alt="Angular logo">
+                
                         <div>
                             <h3>Apprendre le cours Angular</h3>
                             <p>Faireles exercices</p>
                         </div>
 
-                    </div>
+                    
                     <span class="para easy">Easy</span>
                 </div>
 
